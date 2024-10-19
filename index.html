@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <title>Curriculo</title>
+        <meta name="keywords" content="curriculo, engenharia de software, software engineer, frontend, backend, full stack">
+        <meta name="description" content="Engenheira de Software">
+        <meta charset="UTF-8">
+        <meta http-equiv="refresh" content="30">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            #experiencia, 
+            #habilidades {
+                background-color: #F2F2F2;
+            }
+            /* Estilo para a lista de navegação */
+.menu {
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o padding padrão */
+    margin: 0; /* Remove a margem padrão */
+    display: flex; /* Usa Flexbox para alinhar os itens na horizontal */
+    background-color: black;
+}
+
+.menu li {
+    margin-right: 20px; /* Espaçamento entre os itens */
+    font-size: 20px;
+}
+
+.menu a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: white; /* Cor do texto do link */
+}
+
+/* Estilo opcional para hover */
+.menu a:hover {
+    color: darkgray; /* Muda a cor do texto ao passar o mouse */
+}
+#contato {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+#contato h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+    color: #555;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.redes-sociais {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.redes-sociais a {
+    color: #007bff;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.redes-sociais a:hover {
+    text-decoration: underline;
+}
+
+        </style>
+    </head>
+    <body>
+        <!--Cabeçalho (com seu nome e um título como "Currículo")-->
+        <header>
+            <h1>Veronica Costa</h1>
+            <h4>Meu Curriculo</h4>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#sobre">Sobre Mim</a></li>
+                    <li><a href="#experiencia">Experiência</a></li>
+                    <li><a href="#educacao">Educação</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!--Seção "Sobre Mim" (uma breve descrição sobre você)-->
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+            <ul>
+                <li>Sou uma estudante de Engenharia de Software apaixonada por tecnologia e desenvolvimento web.</li>
+                <li>Atualmente, estou cursando Engenharia de Software na Faculdade Descomplica e tenho experiência 
+                    em desenvolvimento de projetos pessoais com HTML, CSS e JavaScript.</li>
+                <li>Possuo habilidades em programação, design de interfaces e resolução de problemas.</li>
+                <li>Estou em busca de oportunidades para aplicar meus conhecimentos em desenvolvimento 
+                    front-end e aprender mais sobre tecnologias emergentes.</li>
+                <li>Além da programação, gosto de ilustrar e criar conteúdo digital.</li>
+                <li>Acredito na importância da colaboração e do aprendizado contínuo.</li>
+            </ul>
+    </section>
+        <!--Seção "Experiência Profissional" (uma lista das suas experiências de trabalho)-->
+    <section id="experiencia">
+        <h2>Experiência</h2>
+        <div class="experiencia-item">
+            <h3>Cleaner na Kentklean</h3>
+            <p><strong>Setembro 2022 - Presente</strong></p>
+            <ul>
+                <li>Realizei serviços de limpeza residencial e comercial com foco em detalhes e satisfação do cliente.</li>
+                <li>Trabalhei em equipe para garantir a qualidade e a eficiência dos serviços prestados.</li>
+                <li>Desenvolvi habilidades de gerenciamento de tempo, cumprindo prazos rigorosos.</li>
+            </ul>
+        </div>
+    
+        <div class="experiencia-item">
+            <h3>Voluntária na Sue Ryder</h3>
+            <p><strong>Maio 2015 - Novembro 2015</strong></p>
+            <ul>
+                <li>Contribuí em uma loja de caridade, ajudando na organização e venda de produtos para arrecadação de fundos.</li>
+                <li>Atuei no atendimento ao cliente, oferecendo suporte e informações sobre os produtos disponíveis.</li>
+                <li>Participei de eventos de arrecadação e promoção da loja na comunidade local.</li>
+            </ul>
+        </div>
+    </section>
+        <!--Seção "Educação" (uma lista das suas formações)-->
+    <section id="educacao">
+        <h2>Educação</h2>
+        <div class="educacao-item">
+            <h3>Engenharia de Software</h3>
+            <p>Faculdade Descomplica</p>
+            <p><strong>Abril 2024 - Abril 2027</strong></p>
+        </div>
+
+        <div class="educacao-item">
+            <h3>Google IT Support Professional Certificate</h3>
+            <p>Google</p>
+            <p><strong>Maio 2024</strong></p>
+        </div>
+
+        <div class="educacao-item">
+            <h3>Soft Skills</h3>
+            <p>Faculdade Descomplica</p>
+            <p><strong>Maio 2024</strong></p>
+        </div>
+    </section>
+        <!--Seção "Habilidades" (uma lista de habilidades relevantes)-->
+        <section id="habilidades">
+            <h2>Minhas Habilidades</h2>
+            <p>Sou uma estudante de Engenharia de Software com um forte interesse em desenvolvimento front-end. 
+                Ao longo da minha jornada, adquiri diversas habilidades que me permitem criar soluções eficientes 
+                e visualmente agradáveis. Aqui estão algumas das minhas principais competências:</p>
+            
+            <h3>Habilidades Técnicas</h3>
+            <ul>
+                <li><strong>Programação:</strong> HTML, CSS, JavaScript</li>
+                <li><strong>Design:</strong> Design de interfaces, UX/UI</li>
+                <li><strong>Ferramentas de Desenvolvimento:</strong> Git, GitHub, Visual Studio Code</li>
+            </ul>
+        
+            <h3>Habilidades Interpessoais</h3>
+            <ul>
+                <li><strong>Comunicação:</strong> Capacidade de transmitir ideias de forma clara e eficaz</li>
+                <li><strong>Trabalho em Equipe:</strong> Experiência em colaborar com times para alcançar objetivos comuns</li>
+                <li><strong>Resolução de Problemas:</strong> Habilidade de analisar desafios e desenvolver soluções criativas</li>
+                <li><strong>Gerenciamento de Tempo:</strong> Capacidade de organizar tarefas e cumprir prazos com eficiência</li>
+            </ul>
+        
+            <p>Utilizei minhas habilidades de HTML e CSS para criar meu portfólio e estou aprendendo JavaScript 
+                para adicionar interatividade. Estou ansiosa para aplicar essas competências em projetos futuros 
+                e em uma carreira de desenvolvimento front-end.</p>
+        </section>
+        
+        <!--Seção "Contato" (informações de contato, como e-mail e telefone)-->
+        <section id="contato">
+            <h2>Contato</h2>
+            <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+        
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+        
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+        
+                <button type="submit">Enviar</button>
+            </form>
+        
+            <div class="redes-sociais">
+                <p>Ou me encontre nas redes sociais:</p>
+                <a href="https://www.instagram.com/seuusuario" target="_blank">Instagram</a> |
+                <a href="https://www.linkedin.com/in/seuusuario" target="_blank">LinkedIn</a> |
+                <a href="https://github.com/seuusuario" target="_blank">GitHub</a>
+            </div>
+        </section>
+        
+    </section>
+    </body>
+</html>

@@ -1,0 +1,25 @@
+/* Estilo para a lista de navegação */
+.menu {
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o padding padrão */
+    margin: 0; /* Remove a margem padrão */
+    display: flex; /* Usa Flexbox para alinhar os itens na horizontal */
+    background-color: black;
+    border-top: 3px;
+    border-bottom: 3px;
+}
+
+.menu li {
+    margin-right: 20px; /* Espaçamento entre os itens */
+    font-size: 20px;
+}
+
+.menu a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: white; /* Cor do texto do link */
+}
+
+/* Estilo opcional para hover */
+.menu a:hover {
+    color: darkgray; /* Muda a cor do texto ao passar o mouse */
+}
